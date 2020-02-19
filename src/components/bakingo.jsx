@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import CardGiftcardIcon from '@material-ui/icons/CardGiftcard';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import ThumbUpIcon from '@material-ui/icons/ThumbUpOutlined';
+import PeopleIcon from '@material-ui/icons/PeopleOutline';
+import PaymentIcon from '@material-ui/icons/Payment';
 class BakingoComponent extends Component {
     state = {}
     render() {
@@ -41,11 +44,10 @@ class BakingoComponent extends Component {
                     </div>
                     <div className="cake">
                         Cake
-                            </div>
+                        </div>
                     <div className="choco-vanilla">
                         Choco vanilla round photo delicious cake 1
-                            </div>
-
+                        </div>
                     <div className="price-percent">
                         <div className="price">
                             Rs. 699
@@ -55,8 +57,7 @@ class BakingoComponent extends Component {
                         </div> */}
                         <div className="percent-0f">
                             (15% off)
-                        </div>
-
+                       </div>
                     </div>
 
                     {/* * --------select weight design------------  */}
@@ -120,7 +121,56 @@ class BakingoComponent extends Component {
 
                     {/* * --------cake description design------------  */}
 
-                    <div className="cake-description"></div>
+                    <div className="cake-description">
+                        Cake Description
+                    </div>
+                    <div className="content">
+                        When a touch of personalised love is added to your sweet tooth pleasure,
+                        everything seems perfect. Every bite of this lip-smacking photo cake will act as a sweet reminder of the love shared by you both.
+                        Order this cake to give your Rakhi festivities a dash of extra goodness!
+                    </div>
+                    <div className="sku">
+                        SKU:phot821flav
+                    </div>
+
+                    {/* * --------available city design------------  */}
+
+                    <div className="availale-city">
+                        Available in limited cities
+                    </div>
+
+                    <div className="deliver-city">
+                        <div className="deliver">
+                            We deliver in
+                        </div>
+                        <div className="city">
+                            Bangalore,Delhi,Gurgaon,
+                        </div>
+                    </div>
+                    <div className="orCity">
+                        Ghaziabad,Noida and Hyderabad
+                    </div>
+
+                    {/* * --------payment smile and like design------------  */}
+
+                    <div className="image-protection">
+                        <div className="image-icon">
+                            <PaymentIcon />
+                        </div>
+                        <div className="payment-protection">
+                            <div className="percent-payment">
+                                <div className="percent">
+                                    100%
+                        </div>
+                                <div className="payment">
+                                    Payment
+                        </div>
+                            </div>
+                            <div className="protection">
+                                Potection
+                        </div>
+                        </div>
+                    </div>
 
 
                 </div>
