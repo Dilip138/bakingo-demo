@@ -313,7 +313,26 @@ class BakingoComponent extends Component {
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+                    {/* * --------see more Design design------------  */}
+
+                    <div className="see-more">
+                        <h4 className="see-more-box">See More</h4>
+                    </div>
+
+                    {/* * --------all review and rating Design design------------  */}
+
+                    <div className="rating-review">
+                        <h2 className="rating-review-header">all reviews and ratings(271)</h2>
+                    </div>
+                    <div className="five-star">
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <div className="ratings">4.9</div>
                     </div>
 
                 </div>

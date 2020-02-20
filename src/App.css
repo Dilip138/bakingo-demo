@@ -92,14 +92,11 @@
   color      : grey;
 }
 
-.price-discount {}
-
 .cross-big {
   opacity   : 0.9;
   border    : solid 1px gray;
   transform : rotate(-7deg);
   margin-top: -10px;
-
 }
 
 .percent-0f {
@@ -135,7 +132,6 @@
   display      : inline-block;
   border       : 1px solid #888;
   color        : grey;
-
 }
 
 .weightBlack {
@@ -150,7 +146,6 @@
   background-color: black;
   font-weight     : 600;
   opacity         : 0.7;
-
 }
 
 .select-flavour {
@@ -392,13 +387,14 @@
   width        : 192px;
   height       : 140px;
   border-radius: 30px;
-  margin-left  : -20px;
+  margin-left  : -22px;
   margin-right : 5px;
 }
 
 .cake-image-size {
-  width : 147px;
-  height: 138px;
+  width      : 147px;
+  height     : 138px;
+  margin-left: 3px;
 }
 
 .toothsome-cordial {
@@ -406,8 +402,28 @@
   margin-top: 25px;
 }
 
+.toothsome-price {
+  width           : 9.5em;
+  margin          : 0 14px 0 0;
+  border-radius   : 4px;
+  border          : .5px solid rgba(0, 0, 0, 0.04);
+  padding         : 3px 3px 14px;
+  box-shadow      : 0 14px 15px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+}
+
+.cordial-price {
+  width           : 9.5em;
+  margin          : 0 14px 0 0;
+  border-radius   : 4px;
+  border          : .5px solid rgba(0, 0, 0, 0.04);
+  padding         : 3px 3px 14px;
+  box-shadow      : 0 14px 15px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+}
+
 .cake-price {
-  padding: 10px 0px 0px 23px;
+  padding: 0px 0px 0px 23px;
 }
 
 .cake-name {
@@ -430,7 +446,6 @@
   font-size  : 12px;
   font-weight: bold;
   color      : #292640;
-
 }
 
 .price-priceCross {
@@ -448,4 +463,53 @@
   border    : solid 0.75px gray;
   transform : rotate(-13deg);
   margin-top: -8px;
+}
+
+.see-more {
+  display        : flex;
+  justify-content: center;
+  margin-top     : 5px;
+}
+
+.see-more-box {
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  width           : 100px;
+  height          : 35px;
+  border-radius   : 5px;
+  border          : solid 2px rgba(255, 127, 125, 0.6);
+  background-color: #fff2f2;
+  color           : #ff7f7d;
+  font-size       : 11px;
+}
+
+.rating-review {
+  display        : flex;
+  justify-content: center;
+}
+
+.rating-review-header {
+  width      : 142px;
+  opacity    : 0.8;
+  font-family: Pacifico;
+  font-size  : 22px;
+  text-align : center;
+  height     : 60px;
+}
+
+.five-star {
+  display        : flex;
+  justify-content: center;
+}
+
+.fill-star {
+  width : 20px;
+  height: 18px;
+}
+
+.ratings {
+  margin-left: 4px;
+  color      : grey;
+  margin-top : 1px;
 }
