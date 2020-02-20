@@ -4,7 +4,6 @@ import CardGiftcardIcon from '@material-ui/icons/CardGiftcard';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import ThumbUpIcon from '@material-ui/icons/ThumbUpOutlined';
 import PeopleIcon from '@material-ui/icons/PeopleOutline';
-import PaymentIcon from '@material-ui/icons/Payment';
 class BakingoComponent extends Component {
     state = {}
     render() {
@@ -155,7 +154,7 @@ class BakingoComponent extends Component {
 
                     <div className="image-protection">
                         <div className="image-icon">
-                            <PaymentIcon />
+                            <img src={require('../assests/money.png')} alt="" className="money" />
                         </div>
                         <div className="payment-protection">
                             <div className="percent-payment">
@@ -172,6 +171,45 @@ class BakingoComponent extends Component {
                         </div>
                     </div>
 
+                    <div className="image-delivered">
+                        <div className="image-icon">
+                            <PeopleIcon className="people" />
+                        </div>
+                        <div className="payment-protection">
+                            <div className="percent-payment">
+                                <div className="percent">
+                                    2 Million
+                        </div>
+                                <div className="payment">
+                                    Smiles
+                        </div>
+                            </div>
+                            <div className="protection">
+                                Delivered
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="image-delivery">
+                        <div className="image-icon">
+                            <ThumbUpIcon className="thumb" />
+                        </div>
+                        <div className="payment-protection">
+                            <div className="percent-payment">
+                                <div className="percent">
+                                    100%
+                        </div>
+                                <div className="payment">
+                                    On Time
+                        </div>
+                            </div>
+                            <div className="protection">
+                                Delivery
+                        </div>
+                        </div>
+                    </div>
+
+                    {/* * --------cake image Design design------------  */}
 
                 </div>
 
