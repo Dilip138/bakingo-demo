@@ -27,7 +27,8 @@
 }
 
 .imageSize {
-  height: 240.8px;
+  width : 375px;
+  height: 400px;
 }
 
 .choko-rate {
@@ -37,9 +38,9 @@
 }
 
 .love-rakhi {
-  margin-left: 2px;
-  font-weight: 600;
-  opacity    : 0.7;
+  margin-right: 47px;
+  font-weight : 600;
+  opacity     : 0.7;
 }
 
 .star {
@@ -89,6 +90,16 @@
 .price-cross {
   margin-left: 4px;
   color      : grey;
+}
+
+.price-discount {}
+
+.cross-big {
+  opacity   : 0.9;
+  border    : solid 1px gray;
+  transform : rotate(-7deg);
+  margin-top: -10px;
+
 }
 
 .percent-0f {
@@ -356,4 +367,85 @@
   width  : 28px;
   height : 28px;
   color  : gray;
+}
+
+.also-like {
+  color          : #251d34;
+  display        : flex;
+  justify-content: center;
+  font-family    : cursive;
+  font-size      : 20px;
+  font-weight    : 600;
+  opacity        : 0.9;
+  margin-top     : 3.5em;
+}
+
+.cake-blackForest {
+  width        : 171px;
+  height       : 140px;
+  border-radius: 15px;
+  margin-top   : -2px;
+  margin-right : 5px;
+}
+
+.cake-whiteForest {
+  width        : 192px;
+  height       : 140px;
+  border-radius: 30px;
+  margin-left  : -20px;
+  margin-right : 5px;
+}
+
+.cake-image-size {
+  width : 147px;
+  height: 138px;
+}
+
+.toothsome-cordial {
+  display   : flex;
+  margin-top: 25px;
+}
+
+.cake-price {
+  padding: 10px 0px 0px 23px;
+}
+
+.cake-name {
+  opacity    : 0.9;
+  font-family: BuenosAiresTrial;
+  font-size  : 13px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.cakeSmall {
+  opacity    : 0.9;
+  font-family: BuenosAiresTrial;
+  font-size  : 13px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.price-small {
+  font-size  : 12px;
+  font-weight: bold;
+  color      : #292640;
+
+}
+
+.price-priceCross {
+  display    : flex;
+  margin-left: 8px;
+}
+
+.priceDiscount {
+  font-size  : 12px;
+  margin-left: 2px;
+}
+
+.cross {
+  opacity   : 0.9;
+  border    : solid 0.75px gray;
+  transform : rotate(-13deg);
+  margin-top: -8px;
 }

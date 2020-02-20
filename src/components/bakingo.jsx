@@ -22,7 +22,7 @@ class BakingoComponent extends Component {
                     {/* * --------image design------------  */}
 
                     <div className="image">
-                        <img src="https://d2m1a7vdhhb67a.cloudfront.net/sites/default/files/styles/product_image/public/raksha-bandhan-photo-cake-1-phot821flav-B.jpg?itok=TtPP-7vm" alt="" className="imageSize" />
+                        <img src="https://d2m1a7vdhhb67a.cloudfront.net/sites/default/files/styles/product_image/public/raksha-bandhan-photo-cake-1-phot821flav-A.jpg?itok=_1jcr30s" alt="" className="imageSize" />
                     </div>
 
                     {/* * --------rating design------------  */}
@@ -51,9 +51,12 @@ class BakingoComponent extends Component {
                         <div className="price">
                             Rs. 699
                         </div>
-                        {/* <div className="price-cross">
-                            Rs. 899
-                        </div> */}
+                        <div className="price-cross">
+                            <div className="price-discount">
+                                Rs. 899
+                            </div>
+                            <div className="cross-big"></div>
+                        </div>
                         <div className="percent-0f">
                             (15% off)
                        </div>
@@ -210,6 +213,108 @@ class BakingoComponent extends Component {
                     </div>
 
                     {/* * --------cake image Design design------------  */}
+
+                    <div className="also-like">
+                        You may also like
+                    </div>
+                    <div className="cake-price">
+                        <div className="toothsome-cordial">
+                            <div className="toothsome-price">
+                                <div className="cake-image">
+                                    <img src={require('../assests/cake1.png')} alt="" className="cake-blackForest" />
+                                </div>
+                                <div className="cake-name">
+                                    Toothsome Rakhi
+                        </div>
+                                <div className="cakeSmall">
+                                    Cake
+                        </div>
+                                <div className="price-priceCross">
+                                    <div className="price-small">
+                                        Rs. 699
+                                </div>
+                                    <div className="price-cross">
+                                        <div className="priceDiscount">
+                                            Rs. 950
+                            </div>
+                                        <div className="cross"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="cordial-price">
+                                <div className="cake-image">
+                                    <img src={require('../assests/cake2.png')} alt="" className="cake-image-size" />
+                                </div>
+                                <div className="cake-name">
+                                    Cordial Bond Rakhi
+                        </div>
+                                <div className="cakeSmall">
+                                    Cake
+                        </div>
+                                <div className="price-priceCross">
+                                    <div className="price-small">
+                                        Rs. 699
+                                </div>
+                                    <div className="price-cross">
+                                        <div className="priceDiscount">
+                                            Rs. 950
+                            </div>
+                                        <div className="cross"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="toothsome-cordial">
+                            <div className="toothsome-price">
+                                <div className="cake-image">
+                                    <img src={require('../assests/cake3.png')} alt="" className="cake-whiteForest" />
+                                </div>
+                                <div className="cake-name">
+                                    Toothsome Rakhi
+                        </div>
+                                <div className="cakeSmall">
+                                    Cake
+                        </div>
+                                <div className="price-priceCross">
+                                    <div className="price-small">
+                                        Rs. 699
+                                </div>
+                                    <div className="price-cross">
+                                        <div className="priceDiscount">
+                                            Rs. 950
+                            </div>
+                                        <div className="cross"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="cordial-price">
+                                <div className="cake-image">
+                                    <img src={require('../assests/cake4.png')} alt="" className="cake-image-size" />
+                                </div>
+                                <div className="cake-name">
+                                    Cordial Bond Rakhi
+                        </div>
+                                <div className="cakeSmall">
+                                    Cake
+                        </div>
+                                <div className="price-priceCross">
+                                    <div className="price-small">
+                                        Rs. 699
+                                </div>
+                                    <div className="price-cross">
+                                        <div className="priceDiscount">
+                                            Rs. 950
+                            </div>
+                                        <div className="cross"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
 
