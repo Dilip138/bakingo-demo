@@ -334,9 +334,52 @@ class BakingoComponent extends Component {
                         <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
                         <div className="ratings">4.9</div>
                     </div>
+                    <div className="basedOn-review">
+                        <div className="basedOn">
+                            Based On 2000+
+                        </div>
+                        <div className="reviews-rating">
+                            Reviews And Rating
+                        </div>
+                    </div>
+
+                    <div className="five-star">
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <div className="ratings">4.5</div>
+                    </div>
+                    <div className="zomato">
+                        <h2 className="zomto-size">Zomato</h2>
+                    </div>
+
+                    <div className="five-star">
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <div className="ratings">4.5</div>
+                    </div>
+                    <div className="google">
+                        <img src={require('../assests/google.png')} alt="" className="google-image" />
+                    </div>
+
+                    <div className="five-star">
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <span ><img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="fill-star" /></span>
+                        <div className="ratings">4.5</div>
+                    </div>
+                    <div className="facebook">
+                        <img src={require('../assests/facebook.png')} alt="" className="facebook-image" />
+                    </div>
 
                 </div>
-
             </div>
 
         );
