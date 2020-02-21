@@ -572,3 +572,66 @@
 .facebook-image {
   width: 68px;
 }
+
+.description-rating {
+  display        : flex;
+  justify-content: center;
+  padding        : 15px 0px 0px 0px;
+}
+
+.description-name {
+  width           : 290px;
+  height          : 150px;
+  border-radius   : 8px;
+  background-color: #f2f2f2;
+  padding         : 14px;
+}
+
+.rating-date {
+  display        : flex;
+  justify-content: space-between;
+}
+
+.star-fill {
+  width: 14px;
+}
+
+.rating-number {
+  font-size  : 12px;
+  color      : #585858;
+  font-weight: 600;
+  font-family: BuenosAiresTrial;
+  margin-left: 4px;
+}
+
+.date {
+  font-size  : 11px;
+  color      : #585858;
+  font-family: BuenosAiresTrial;
+  margin-left: 4px;
+}
+
+.title {
+  opacity    : 0.9;
+  font-family: BuenosAiresTrial;
+  font-size  : 16px;
+  font-weight: 600;
+  color      : #292640;
+  line-height: 2.2;
+}
+
+.description {
+  opacity    : 0.6;
+  font-family: BuenosAiresTrial;
+  font-size  : 15px;
+  line-height: 1.35;
+  color      : #292640;
+}
+
+.name {
+  opacity    : 0.9;
+  font-family: BuenosAiresTrial;
+  font-size  : 15px;
+  line-height: 3;
+  color      : #292640;
+}

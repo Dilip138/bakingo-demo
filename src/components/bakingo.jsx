@@ -4,6 +4,7 @@ import CardGiftcardIcon from '@material-ui/icons/CardGiftcard';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import ThumbUpIcon from '@material-ui/icons/ThumbUpOutlined';
 import PeopleIcon from '@material-ui/icons/PeopleOutline';
+import description from '../components/description.json';
 class BakingoComponent extends Component {
     state = {}
     render() {
@@ -90,7 +91,7 @@ class BakingoComponent extends Component {
                         </div>
                     </div>
 
-                    {/* * --------select flavour design------------  */}
+                    {/* * --------upload image design------------  */}
 
                     <div className="uploadImages">
                         Upload Images*
@@ -321,7 +322,7 @@ class BakingoComponent extends Component {
                         <h4 className="see-more-box">See More</h4>
                     </div>
 
-                    {/* * --------all review and rating Design design------------  */}
+                    {/* * --------all review and rating design------------  */}
 
                     <div className="rating-review">
                         <h2 className="rating-review-header">all reviews and ratings(271)</h2>
@@ -378,6 +379,37 @@ class BakingoComponent extends Component {
                     <div className="facebook">
                         <img src={require('../assests/facebook.png')} alt="" className="facebook-image" />
                     </div>
+
+                    {/* * --------review,rating and description design------------  */}
+
+                    <div className="all-description">
+                        {description.descriptionRating.map(data => {
+                            return (
+                                <div className="description-rating">
+                                    <div className="description-name">
+                                        <div className="rating-date">
+                                            <div className="rating-star">
+                                                <span> <img src={data.image} alt="" className="star-fill" /> </span>
+                                                <span> <img src={data.image} alt="" className="star-fill" /> </span>
+                                                <span> <img src={data.image} alt="" className="star-fill" /> </span>
+                                                <span> <img src={data.image} alt="" className="star-fill" /> </span>
+                                                <span> <img src={data.image} alt="" className="star-fill" /> </span>
+                                                <div className="rating-number">5/5</div>
+                                            </div>
+                                            <div className="date">19/04/19</div>
+                                        </div>
+                                        <div className="title">{data.title}</div>
+                                        <div className="description">{data.description}</div>
+                                        <div className="name">{data.name}</div>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                    </div>
+
+                    {/* * --------all quick links cake type design------------  */}
+
+
 
                 </div>
             </div>
