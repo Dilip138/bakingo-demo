@@ -409,6 +409,88 @@ class BakingoComponent extends Component {
 
                     {/* * --------all quick links cake type design------------  */}
 
+                    <div className="quick-links-cities">
+                        <div className="Quick-links">Quick links</div>
+                        <div className="all-cake-type">
+                            <div className="cake-top-cities">Cakes top cities</div>
+                            <div className="city-first">
+                                <div className="delhi">Delhi</div>
+                                <div className="boder"></div>
+                                <div className="chennai">Chennai</div>
+                                <div className="boder"></div>
+                                <div className="mumbai">Mumbai</div>
+                                <div className="boder"></div>
+                                <div className="hyderabad">Hyderabad</div>
+                            </div>
+                            <div className="city-first">
+                                <div className="delhi">Noida</div>
+                                <div className="boder"></div>
+                                <div className="chennai">Banglore</div>
+                                <div className="boder"></div>
+                                <div className="mumbai">Gurgaon</div>
+                                <div className="boder"></div>
+                                <div className="hyderabad">Pune</div>
+                            </div>
+
+                            <div className="cake-by-type">Cakes by type</div>
+                            <div className="city-first">
+                                <div className="delhi">All Cakes</div>
+                                <div className="boder"></div>
+                                <div className="chennai">Photo Cakes</div>
+                                <div className="boder"></div>
+                                <div className="mumbai">Jar Cakes</div>
+                            </div>
+                            <div className="city-first">
+                                <div className="delhi">Pastery</div>
+                                <div className="boder"></div>
+                                <div className="chennai">Midnight Cakes</div>
+                                <div className="boder"></div>
+                                <div className="mumbai">Party cakes</div>
+                            </div>
+
+                            <div className="cake-by-type">Cakes Flavours</div>
+                            <div className="city-first">
+                                <div className="delhi">Fruit</div>
+                                <div className="boder"></div>
+                                <div className="chennai">Chocolate</div>
+                                <div className="boder"></div>
+                                <div className="mumbai">Strawberry</div>
+                                <div className="boder"></div>
+                                <div className="hyderabad">Coffee</div>
+                            </div>
+                            <div className="city-first">
+                                <div className="delhi">Vanilla</div>
+                                <div className="boder"></div>
+                                <div className="chennai">Pineapple</div>
+                                <div className="boder"></div>
+                                <div className="mumbai">Red Valvet</div>
+                                <div className="boder"></div>
+                                <div className="hyderabad">Mango</div>
+                            </div>
+
+                            <div className="cake-by-type">Ocassion Special</div>
+                            <div className="city-first">
+                                <div className="delhi">Anniversery</div>
+                                <div className="boder"></div>
+                                <div className="chennai">Birtday</div>
+                                <div className="boder"></div>
+                                <div className="mumbai">Father's Day</div>
+                            </div>
+                            <div className="city-first">
+                                <div className="delhi">Mother's Day</div>
+                                <div className="boder"></div>
+                                <div className="chennai">Teacher's Day</div>
+                                <div className="boder"></div>
+                                <div className="mumbai">Rakhi</div>
+                            </div>
+                            <div className="city-first">
+                                <div className="delhi">Friendship Day</div>
+                                <div className="boder"></div>
+                                <div className="chennai">Valentines Day</div>
+                            </div>
+                        </div>
+                    </div>
+
 
 
                 </div>

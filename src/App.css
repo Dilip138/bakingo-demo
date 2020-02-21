@@ -573,6 +573,10 @@
   width: 68px;
 }
 
+.all-description {
+  margin-bottom: 40px;
+}
+
 .description-rating {
   display        : flex;
   justify-content: center;
@@ -634,4 +638,68 @@
   font-size  : 15px;
   line-height: 3;
   color      : #292640;
+}
+
+.quick-links-cities {
+  height          : 600px;
+  background-color: #ecebeb;
+}
+
+.Quick-links {
+  display        : flex;
+  justify-content: center;
+  font-family    : Pacifico;
+  font-size      : 22px;
+  color          : #251d34;
+  font-weight    : 600;
+  padding-top    : 30px;
+  margin-bottom  : 20px;
+}
+
+.all-cake-type {
+  width           : 265px;
+  height          : 420px;
+  border-radius   : 8px;
+  background-color: #ffffff;
+  margin-left     : 19px;
+  padding         : 35px;
+}
+
+.cake-top-cities {
+  opacity  : 0.9;
+  font-size: 14px;
+  color    : #282c3f;
+}
+
+.city-first {
+  display    : flex;
+  color      : #ff5f5d;
+  opacity    : 0.98;
+  font-family: BuenosAiresTrial;
+  font-size  : 15px;
+  margin-top : 10px;
+}
+
+.boder {
+  border-left: 1px solid grey;
+  margin-left: 7px;
+}
+
+.chennai {
+  margin-left: 7px;
+}
+
+.mumbai {
+  margin-left: 7px;
+}
+
+.hyderabad {
+  margin-left: 7px;
+}
+
+.cake-by-type {
+  opacity   : 0.9;
+  font-size : 14px;
+  color     : #282c3f;
+  margin-top: 30px;
 }
