@@ -4,7 +4,12 @@ import CardGiftcardIcon from '@material-ui/icons/CardGiftcard';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import ThumbUpIcon from '@material-ui/icons/ThumbUpOutlined';
 import PeopleIcon from '@material-ui/icons/PeopleOutline';
+import CopyrightIcon from '@material-ui/icons/Copyright';
 import description from '../components/description.json';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
+
 class BakingoComponent extends Component {
     state = {}
     render() {
@@ -488,6 +493,55 @@ class BakingoComponent extends Component {
                                 <div className="boder"></div>
                                 <div className="chennai">Valentines Day</div>
                             </div>
+                        </div>
+                    </div>
+
+                    {/* * --------footer bakingo design------------  */}
+
+                    <div className="footer-description">
+                        {/* <img src={require('../assests/footer.png')} alt="" className="footer-image" /> */}
+                        <div className="bakingo-footer">
+                            <div className="bakingo-name"> bakingo</div>
+                            <div className="c-2019">
+                                <CopyrightIcon style={{ width: '14px' }} />
+                                <div className="year">2019</div>
+                            </div>
+                            <div className="knowUs-needHelp">
+                                <div className="knowUs-description">
+                                    <div className="know-us">Know Us</div>
+                                    <div className="description-bottom">
+                                        <div className="our-story">Our Story</div>
+                                        <div className="contact-us">Contact Us</div>
+                                        <div className="lacate-us">Locate Us</div>
+                                        <div className="blog">Blog</div>
+                                    </div>
+                                </div>
+                                <div className="needHelp-description">
+                                    <div className="Need-Help">Need Help</div>
+                                    <div className="description-bottom">
+                                        <div className="blog">FAQ</div>
+                                        <div className="blog">cancellation And Refund</div>
+                                        <div className="blog">Privacy Policy</div>
+                                        <div className="blog">Terms And Conditions</div>
+                                        <div className="blog">Track-Order</div>
+                                        <div className="blog">Sitemap</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="more-info">More Info</div>
+                            <div className="customised-cakes">Customised Cakes</div>
+                            <div className="Corporate-cakes">Corporate cakes</div>
+                            <div className="Corporate-cakes">Coupons & Offers</div>
+                            <div className="find-us">Find Us</div>
+                            <div className="all-logos">
+                                <h2 className="fIcon">f</h2>
+                                <TwitterIcon className="logo" style={{ width: '28px', height: '28px' }} />
+                                <InstagramIcon className="logo" style={{ width: '26px', height: '26px' }} />
+                                <img src={require('../assests/prentest.png')} alt="" className="logo" />
+                            </div>
+                            <div className="subscribe-newsletter">Subscribe Our Newsletter</div>
+                            <div className="email-address">Enter email address</div>
+                            <div className="subscribe">Subscribe</div>
                         </div>
                     </div>
 

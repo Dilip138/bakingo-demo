@@ -2,6 +2,7 @@
   display        : flex;
   justify-content: center;
   margin-top     : 6em;
+  margin-bottom  : 2em;
 }
 
 .main-content {
@@ -702,4 +703,164 @@
   font-size : 14px;
   color     : #282c3f;
   margin-top: 30px;
+}
+
+.footer-description {
+  background-color: #FACECE;
+  margin-top      : 1.5em;
+}
+
+.footer-image {
+  width: 370px;
+}
+
+.bakingo-footer {
+  padding-top   : 30px;
+  padding-bottom: 4em;
+}
+
+.bakingo-name {
+  font-size  : 25px;
+  margin-left: 23px;
+  color      : red;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.c-2019 {
+  display    : flex;
+  align-items: center;
+  margin-left: 23px;
+  margin-top : 10px;
+}
+
+.year {
+  font-size: 12px;
+  margin   : 1px 0px 0px 8px;
+}
+
+.knowUs-needHelp {
+  display        : flex;
+  justify-content: space-between;
+  margin-left    : 23px;
+  margin-top     : 2em;
+  color          : grey;
+}
+
+.know-us {
+  font-weight: bold;
+}
+
+.description-bottom {
+  font-size : 12px;
+  margin-top: 12px;
+}
+
+.Need-Help {
+  font-weight: bold;
+}
+
+.needHelp-description {
+  margin-right: 4em;
+}
+
+.our-story {
+  margin-top: 7px;
+}
+
+.contact-us {
+  margin-top: 7px;
+}
+
+.lacate-us {
+  margin-top: 7px;
+}
+
+.blog {
+  margin-top: 7px;
+}
+
+.more-info {
+  color      : grey;
+  font-weight: bold;
+  margin-left: 23px;
+  margin-top : 20px;
+}
+
+.customised-cakes {
+  font-size  : 12px;
+  color      : grey;
+  margin-left: 23px;
+  margin-top : 15px;
+}
+
+.Corporate-cakes {
+  font-size  : 12px;
+  color      : grey;
+  margin-left: 23px;
+  margin-top : 7px;
+}
+
+.find-us {
+  color      : grey;
+  margin-left: 23px;
+  font-weight: bold;
+  margin-top : 2em;
+}
+
+.all-logos {
+  display    : flex;
+  align-items: center;
+  margin-left: 23px;
+  margin-top : 18px;
+}
+
+.fIcon {
+  font-size: 30px;
+  color    : grey;
+}
+
+.logo {
+  width      : 27px;
+  color      : grey;
+  margin-left: 25px;
+
+}
+
+.subscribe-newsletter {
+  margin-left: 23px;
+  color      : grey;
+  font-weight: bold;
+  margin-top : 2em;
+}
+
+.email-address {
+  display         : flex;
+  align-items     : center;
+  margin-left     : 23px;
+  border          : 1px solid white;
+  background-color: white;
+  width           : 190px;
+  padding         : 12px;
+  font-size       : 14px;
+  border-radius   : 4px;
+  color           : grey;
+  font-weight     : bold;
+  margin-top      : 1.5em;
+}
+
+.subscribe {
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  margin-left     : 23px;
+  border          : 1px solid #f35c5c;
+  background-color: #f35c5c;
+  width           : 190px;
+  padding         : 12px;
+  font-size       : 13px;
+  border-radius   : 4px;
+  color           : white;
+  font-weight     : bold;
+  margin-top      : 1.5em;
 }
