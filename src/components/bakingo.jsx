@@ -6,7 +6,6 @@ import ThumbUpIcon from '@material-ui/icons/ThumbUpOutlined';
 import PeopleIcon from '@material-ui/icons/PeopleOutline';
 import CopyrightIcon from '@material-ui/icons/Copyright';
 import description from '../components/description.json';
-import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 
@@ -545,11 +544,8 @@ class BakingoComponent extends Component {
                         </div>
                     </div>
 
-
-
                 </div>
             </div>
-
         );
     }
 }
