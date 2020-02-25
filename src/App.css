@@ -835,7 +835,7 @@
   display    : flex;
   align-items: center;
   margin-left: 23px;
-  margin-top : 18px;
+  margin-top : -8px;
 }
 
 .fIcon {
@@ -853,7 +853,7 @@
   margin-left: 23px;
   color      : grey;
   font-weight: bold;
-  margin-top : 1em;
+  margin-top : 10px;
 }
 
 .email-address {
@@ -868,7 +868,7 @@
   border-radius   : 4px;
   color           : grey;
   font-weight     : bold;
-  margin-top      : 1.5em;
+  margin-top      : 1em;
 }
 
 .subscribe {
@@ -884,5 +884,5 @@
   border-radius   : 4px;
   color           : white;
   font-weight     : bold;
-  margin-top      : 1.5em;
+  margin-top      : 1em;
 }
