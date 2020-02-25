@@ -42,7 +42,8 @@ class BakingoComponent extends Component {
                                 <img src="https://www.floweraura.com/sites/default/files/ssr/static/media/fill_star.76f5a90e.svg" alt="" className="rate-starImage" />
                             </div>
                             <div className="rating">
-                                49Rating
+                                49 Ratings
+                                <div className="border-width"></div>
                             </div>
                         </div>
                     </div>
@@ -168,7 +169,7 @@ class BakingoComponent extends Component {
                         </div>
                         <div className="payment-protection">
                             <div className="percent-payment">
-                                <div className="percent">
+                                <div className="percent-hundred">
                                     100%
                         </div>
                                 <div className="payment">
@@ -187,7 +188,7 @@ class BakingoComponent extends Component {
                         </div>
                         <div className="payment-protection">
                             <div className="percent-payment">
-                                <div className="percent">
+                                <div className="percent-hundred">
                                     2 Million
                         </div>
                                 <div className="payment">
@@ -206,7 +207,7 @@ class BakingoComponent extends Component {
                         </div>
                         <div className="payment-protection">
                             <div className="percent-payment">
-                                <div className="percent">
+                                <div className="percent-hundred">
                                     100%
                         </div>
                                 <div className="payment">
@@ -502,7 +503,7 @@ class BakingoComponent extends Component {
                     <div className="footer-description">
                         {/* <img src={require('../assests/footer.png')} alt="" className="footer-image" /> */}
                         <div className="bakingo-footer">
-                            <div className="bakingo-name"> bakingo</div>
+                            <img src={require('../assests/bakingo.png')} alt="" className="bakingo-image" />
                             <div className="c-2019">
                                 <CopyrightIcon style={{ width: '14px' }} />
                                 <div className="year">2019</div>
