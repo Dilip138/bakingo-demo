@@ -2,7 +2,7 @@
   display        : flex;
   justify-content: center;
   margin-top     : 6em;
-  margin-bottom  : 2em;
+  margin-bottom  : 4em;
 }
 
 .main-content {
@@ -187,31 +187,41 @@
 
 .photo-mb {
   margin       : 10px 15px 0px 23px;
-  border       : 1px solid gray;
+  opacity      : 0.6;
   border-radius: 2px;
-  padding      : 5px 0px 3px 12px;
+  border       : solid 1px #251d34;
+}
+
+.change-photo-degree {
+  width           : 100px;
+  height          : 40px;
+  border-radius   : 2px;
+  background-color: #c7c8ce;
+  opacity         : 0.9;
 }
 
 .degree-mb {
-  display: flex;
+  display    : flex;
+  padding-top: 6px;
 }
 
 .percent {
   font-size  : 12px;
   font-weight: bold;
   opacity    : 0.8;
+  margin-left: 15px;
 }
 
 .mb {
   font-size  : 12px;
   margin-left: 5px;
-  color      : grey;
 }
 
 .change-photo {
-  font-size : 12px;
-  margin-top: 4px;
-  color     : #ea5757;
+  font-size  : 12px;
+  margin-top : 4px;
+  color      : #ea5757;
+  margin-left: 15px;
 }
 
 .file-size {
@@ -716,7 +726,7 @@
 
 .bakingo-footer {
   padding-top   : 30px;
-  padding-bottom: 4em;
+  padding-bottom: 5em;
 }
 
 .bakingo-name {

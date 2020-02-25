@@ -101,16 +101,18 @@ class BakingoComponent extends Component {
                         Upload Images*
                     </div>
                     <div className="photo-mb">
-                        <div className="degree-mb">
-                            <div className="percent">
-                                42%
+                        <div className="change-photo-degree">
+                            <div className="degree-mb">
+                                <div className="percent">
+                                    42%
                             </div>
-                            <div className="mb">
-                                1.2Mb/4.2Mb
+                                <div className="mb">
+                                    1.2Mb/4.2Mb
                             </div>
+                            </div>
+                            <div className="change-photo">
+                                Change Photo
                         </div>
-                        <div className="change-photo">
-                            Change Photo
                         </div>
                     </div>
                     <div className="file-size">
